@@ -1,0 +1,64 @@
+.boximg{
+    width: 200px;
+    text-align: center;
+    box-shadow: 5px 5px 5px;
+    border-radius: 5px;
+}
+
+.boxmain{
+    width: 300px;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+}
+
+.box{
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 18px;
+    margin-bottom: 20px;   
+}
+
+.box:hover{
+    box-shadow: 5px 5px 5px 5px;
+}
+
+.infoname{
+    text-align: center;
+    color: white;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.infomail{
+    text-align: center;
+    color: white;
+}
+
+.btndetail{
+    text-align: center;
+    cursor: pointer;
+    width: 150px;
+    margin: auto;
+    margin-top: 20px;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(187, 32, 32);
+    color: white;
+    border: white 1px solid;    
+}
+
+.btndetail:hover{
+    background-color: rgb(102, 5, 5);
+}
+
+.info{
+    display: grid;
+    grid-template-rows: auto auto auto ;
+    justify-content: center;
+}
